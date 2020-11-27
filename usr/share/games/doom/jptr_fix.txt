@@ -1,0 +1,73 @@
+================================================================
+Title                   : The Unofficial DOOM: THE LOST EPISODES 
+                          fix
+Filenames               : JPTR_FIX.WAD
+                          JPTR_FIX.BEX
+Author                  : Monfriez
+Email                   : monfriez_geo@yahoo.com
+================================================================
+
+* What's New *
+February 18, 2002
+-Thanks to Alexis ( alexis_aiello@topmail.com.ar ) for fixing
+some mistakes in the origanal JPTR_FIX.WAD
+
+-I added demos to the JPTR_FIX.WAD to prevent crashing
+
+
+* Play Information *
+JPTR_FIX.WAD will only replace the demos found in JPTR_V40.WAD
+to prevent crashing, nothing else found in JPTR_V40.WAD is
+effected by the JPTR_FIX.WAD
+
+
+Description             : JPTR_FIX.WAD
+                          This will replaces the old demos
+                          with new ones to prevent crashing in
+                          Doom v1.9, the new demos are fairly
+                          accurate reenactments of the original
+                          demos.
+                          All intermission level name graphics
+                          with DOOM: THE LOST EPISODES level
+                          names found in THE LOST EPISODES OF
+                          DOOM book. And for THE ULTIMATE DOOM
+                          the episode title "Thy Flesh Consumed"
+                          is adjusted and adds a new menu bar.
+
+                          JPTR_FIX.BEX
+                          This changes map names in automap
+                          and replaces text at the end of each
+                          episode with adjusted quotes
+                          from THE LOST EPISODES OF DOOM book
+                          (pages p.107, 154, and 200).
+
+
+New Maps                : No
+New Sounds              : No
+New Graphics            : Yes
+New Music               : No
+Demos Replaced          : Yes
+
+For Doom  : Doom.exe -file JPTR_V40.WAD JPTR_FIX.WAD
+
+For Boom  : Boom.exe -iwad doom.wad -file JPTR_V40.WAD JPTR_FIX.WAD -deh JPTR_FIX.BEX
+            (This should also work for all Source Ports that
+            support Boom BEX files. Such as ZDoom and MBF.)
+
+* Construction *
+
+Base                    : New graphics were made from scratch
+                          except "Thy Flesh Consumed" episode
+                          title, for which id Software's
+                          "M_EPI4" was used as the base.
+
+Editor(s) used          : WinTex 4.3
+                          ZDoom
+                          Microsoft Paint
+
+Known Bugs              : None known
+
+
+* Copyright / Permissions *
+
+You may distribute these files in any format.

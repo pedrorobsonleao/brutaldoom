@@ -1,0 +1,70 @@
+[STRINGS]
+HUSTR_E1M1 = E1M1: UAC Spaceport
+HUSTR_E1M2 = E1M2: Fusion Power Plant
+HUSTR_E1M3 = E1M3: Jovian Deuterium Plant
+HUSTR_E1M4 = E1M4: Jupiter Planetary Control Center
+HUSTR_E1M5 = E1M5: Weapons Research Center
+HUSTR_E1M6 = E1M6: Halls of Injustice
+HUSTR_E1M7 = E1M7: Core of Evil
+HUSTR_E1M8 = E1M8: Callisto Consecration
+HUSTR_E2M1 = E2M1: Io Anomaly
+HUSTR_E2M2 = E2M2: Io Munitions Works
+HUSTR_E2M3 = E2M3: Io Toxic Disposal Plant
+HUSTR_E2M4 = E2M4: Weapons Testing Facility
+HUSTR_E2M5 = E2M5: Io Training Camp
+HUSTR_E2M6 = E2M6: Io Military Garrison 
+HUSTR_E2M7 = E2M7: The Draining Pit
+HUSTR_E2M8 = E2M8: Late For Supper
+HUSTR_E3M1 = E3M1: Jovian Stonehenge
+HUSTR_E3M2 = E3M2: Pillar of Peril
+HUSTR_E3M3 = E3M3: Subterranean Stoneworks
+HUSTR_E3M4 = E3M4: Pools of Despair
+HUSTR_E3M5 = E3M5: The Cat-Skinner Box
+HUSTR_E3M6 = E3M6: Somber Io Promenade
+HUSTR_E3M7 = E3M7: Jovian Killjoy
+HUSTR_E3M8 = E3M8: Jovian Deja Vu Again
+
+E1TEXT = Overcoming insurmountable odds, you have\n\
+         left the Massacre on Callisto behind you.\n\n\
+         Unable to locate the focus of the hellish\n\
+         forces, you get back on your ship and\n\
+         blast off. But no sooner are you flying\n\
+         high above Callisto when your scanners\n\
+         detect abnormal energy fluctuations form\n\
+         Jupiter's innermost moon, Io.\n\n\
+         You could ignore the readings and attempt\n\
+         to reach the Martian colonies.\n\
+         But the emergency radio signals from\n\
+         Martian space have stopped.  Why?\n\
+         Once again, you are forced into a quick\n\
+         decision.\n\
+         Io, here you go.\n\
+
+E2TEXT = Climbing aboard your interplanetary\n\
+         capsule, you begin to plot a course to\n\
+         Earth. But then you ask yourself, is the\n\
+         Red Spot of Jupiter the epicenter of the\n\
+         strange force behind the Anomalies?\n\
+         Is the Red Spot the gateway to Hell?\n\n\
+         Should you venture to find out?\n\n\
+         Ultimately, your scientific curiosity\n\
+         wins out and your desire to put an end\n\
+         to the hellish nightmare.\n\n\
+         You have no idea what you may find once\n\
+         you get there ... if you survive the ride\n\
+         through the red eye. But one thing is for\n\
+         certain, you won't go down without a fight.
+
+E3TEXT = In the aftermath of your whirlwind tour,\n\
+         words seem somewhat void of much meaning.\n\n\
+         The things you've seen, the places you've\n\
+         been, the horror, the unspeakable.\n\
+         Somehow you survived The Lost Episodes of\n\
+         Doom. You've descended into the bowels of\n\
+         Hell and have come out with your soul\n\
+         intact.\n\n\
+         The gateway to Hell is sealed forever\n\
+         ...you hope.\n\n\
+         What awaits you back in Earth?\n\
+         You can only guess. All you know is that\n\
+         things can never be the same again.

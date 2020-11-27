@@ -1,0 +1,47 @@
+
+===========================================================================
+Title                   : Lost Episodes Of Doom
+Filename                : JPTR_V40.WAD
+Release date            : 09/12/94
+Authors                 : Christen Klie and Robert Carter
+
+Description             : 3 episode replacement for DooM
+===========================================================================
+* What is included *
+
+New levels              : Yes.
+Sounds                  : No.
+Music                   : No.
+Graphics                : Only menu items.
+Dehacked/BEX Patch      : Nope.
+Demos                   : Yes.
+
+* Play Information *
+
+Game                    : Doom
+Map #                   : E1M1-E1M8, E2M1-E2M8, E3M1-E3M8
+Single Player           : Yes.
+Cooperative 2-4 Player  : Not sure. Heh.
+Deathmatch 2-4 Player   : Again, not sure. Heh.
+Difficulty Settings     : Maybe.
+
+
+* Construction *
+
+Base                    : Original maps.
+Build Time              : This took me about a lot of hours or so
+Known Bugs              : Yeah, probably a few.
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for
+modification or reuse, granted you ask me for permission first.
+
+You MAY distribute this file, provided you include this text file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as my name is in there somewhere.
+You don't have to tell me, but I'd like to know if someone wants to do this.
+
+* Where to get the file that this text file describes *
+
+FTP sites: ftp://archives.3dgamers.com/pub/idgames/ and mirrors

@@ -1,0 +1,485 @@
+May 17 2019 v21 GOLD Release
+- Fixed several more bugs.
+- All 10 DM levels are now functional.
+- Fixed thing spawns on Doombuilder, added spawns for Brutal Doom's custom monsters and weapons.
+
+May 16 2019 Release Candidate 11
+- Fixed a few more bugs.
+- Further improved the gore system.
+- All PSX Maps fully working.
+- Flamecannon and Flamethrower now moved to Slot 9 as it was supposed to be.
+- All armor types now saves 50%, to match classic Doom's Blue Armor, and solve issues with vehicles and the IDFA cheat.
+- Revolver now allows to change ammo for rifle bullets as alt-fire.
+
+May 08 2019 Release candidate 10
+- Fixed several bugs that caused the game to crash.
+- Several improvements on blood effects.
+- Friendly marines no longer turn solid when attacking.
+- New indicator icon when the MG GL is out of ammo.
+- Rocket backblast no longer hurts friendly marines.
+- Bonus Items droped by destroyable decorations no longer counts towards maximum item count to prevent bugs
+- Removed the annoying "UHHHH HAAAHAAA" sound from rescuing marines (replaced by D64 Guy taunt sound).
+
+March 31 2019 Release Candidate 9
+- Fixed bugs reported on RC8
+- Axe revamped. New sprites, new alt fire, Dual Wield button throws it.
+- New sprites for the sub-machinegun and machinegun reload.
+- Reduced companion Marine chatter by 50%.
+- Nerfed pinky attack range
+- Zombies no longer attack other burning zombies to prevent bugs.
+- There is a total of 9 functioning Deathmatch maps now (BDM01, BDM02, BDM03, BDM04, BDM05, BDM06, BDM08, BDM09, BDM10)
+
+March 01 2019 Release Candidate 8
+- Many bugs fixed.
+- Much smoother dirt particles when shooting the floor.
+- Further gore improvements.
+- Punching is more efficient.
+- Grenade Launcher has a proper ammo indicator.
+- Whenever the player has Berserk strength, there will be a small red square with a black cross next to the player's mugshot.
+- When the player fires the Machinegun's underbarrel grenade, it will display a small red dot next to the player's crosshair until the grenade is reloaded again or the weapon is switched.
+
+
+January 18 2019 Release Candidate 7
+- Fixed bugs reported on previous RCs.
+- Added an option to disabe auto-reloading.
+- Pistol has now a burst-fire mode that can be activated with alt-fire.
+- Started the final replacements of old gore sprites (on this build, notably on zombie death sprites and gibs).
+
+December 16 2018 Release Candidate 4
+
+- Merged with the new gore system of Bolognese. New sprites and new effects for gibs falling from the ceiling, 
+flying brain pieces, and more.
+- MUCH more efficient friendly marine respawn system. Now a marine that survives a level will spawn on the next level 
+99% of times, and will spawn instantly, with no teleport effects.
+- Chainsaw rewritten, better attack sprites, more chances of stunlocking enemies.
+- Fixed a bug that allowed the player to keep firing both guns when dual-wielding even after the mag on the single weapon version was empty.
+- Fixed a RC3 bug that made bloody footsteps disappear.
+- Fixed a bug that caused weapons to disappear after death on GZDoom.
+- Shotguns rebalanced in a way that makes them easier to hit multiple enemies without losing their accuracy.
+- BFG tracers will no longer target friendly marines.
+- Removed blood driping from the player when health is low (useless, annoying, and only poluted the code).
+- Fixed bugs on unloading autoshotgun.
+- Grenades can now go through teleports.
+- Fists improved, better movements, jabs are faster, you can do a left hook after two jabs.
+- Tactical class now will feature better and fast weapons, but got move speed further reduced by 10%, weapons have recoil, and now takes damage from bullet shrapnel and can't dual wield rifles and smgs.
+- Added more difficulty options.
+- Improved weapons mode description (like, Purist now explains that it's an oldschool mode, etc.).
+- Improved head hitbox and attack animations for Revenants.
+
+TNT1 A 0 A_JumpIfInventory("IsNOTTacticalClass", 1, 2)//Tactical mode skips a frame, fires faster
+
+November 10 2018 Release Candidate 3
+- Now it is possible to aim down the sights both by a toggle aim mode (press alt fire once) or holding the alt fire button.
+- Shotgun can only carry 8 shells in the tube + 1 shell in the chamber, for realism and balance purposes.
+- Improved head hitbox for mancubus.
+- SMG Zombies no longer spawn rifle casing.
+- Changed BFG 9000 ammo cost per shot from 40 to 50, increased splash damage from 100 to 200.
+- Changed BFG 10k projectile type, fixing some bugs.
+- Fixed an exploit that allowed the player to have infinite ammo for the Super Shotgun.
+- Fixed a bug that allowed the player to eat a tank and absorb its hit points.
+- Removed muzzle climb for all regular weapons (now they only have it when dual-wielding).
+- Power up durations will now show properly on alternative huds.
+- Now the Shotgunguy will have a visible carry strap on its weapon just like the player (sprites by Xamp)
+- Added Blackmore1014's grenade sprites, to replace the old unfitting Vietnam era-like grenades.
+- You can no longer upset explosive barrels until they explode.
+- Several small bugs fixed.
+
+
+October 28 2018 Release Candidate 2.B
+- Reverted aiming mode to toggle mode.
+- Fixed a bug that caused the Revenant Mode to not fire any weapons.
+- Fixed missing texture error messages.
+- Added a CVAR to disable rocket backblast (bd_rocketbackblast)
+- Added a CVAR to disable voxel decorations spawned by the Map Enhancement System (bd_voxeldec) because Voxels causes Android users to crash.
+
+October 27 2018 Release Candidate 2
+- Non-monster objects will no longer show health bars.
+- Map Enhancement System is finished for Doom 1.
+- New Assault Shotgun sprites.
+- New brightmaps and better light effects for all firearms.
+- All aiming modes (with exception of scoped weapons) now requires to hold the alt fire button instead of pressing once to switch. This makes the code better, allowing faster action, fixing a bug that caused the weapon to not fire if the aim mode was used and the fire button pressed imediately, and makes the aim mode more similar to recent modern games.
+- Fixed an old bug that caused imp and pinky demons melee attacks to be impossible to sidestep away.
+- Reloading the shotgun during the pumping animation will skip directly to the reloading sequence smoothly (only with BD's own reload button) 
+- Playing on higher levels of blood settings now increases the amount of blood decals.
+- Kicking windows no longer kills the player.
+- Improved the footstep system to make sounds be played closer to the player.
+- I have opened a bug reporting forum on Moddb. Post any of your bug reports and suggestions there, and do not message them to me on social media, because I am not able to track them if you do.
+https://www.moddb.com/mods/brutal-doom/forum/board/bug-reporting
+- Several bugfixes I forgot to mention.
+
+August 29 2018 Release Candidate 1 Emergency Quickfix:
+- Fixed a code error that caused a bug with the latest version of Extermination Day making the keys not teleport in EDAY28.
+- Fixed a bug that caused the Archvile's dead body after a fatality have a clone of the player ridding it.
+- Fixed a bug that caused Pinky demons to desync online after attacking a player, and another bug that caused them to
+unable to attack players after being taunted.
+- The Flamethrower now leaves better leftover flames after burning stuff, they also cause damage for some time.
+- Fixed a bug that caused Doomguy to wear it's boots on the wrong feet.
+- New sprites for the Purist's chaingun, featuring the missing link belts.
+- New feature: You can bind a quick pistol draw button which selects the pistol (if you have one) faster. Check control options.
+
+
+August 25  2018 Release Candidate 1:
+- Added stun animations for zombies and imps when hit with non-fatal attacks in the head.
+- Several fatalities improved, many new frames added, some new gory sounds, reduced the camera shakeness, and improved the amount and location of blood slattering.
+- Improved the headshot system to include more accurate damages for small firearms.
+- Better dirt particles.
+- Better effects for the Cyberdemon stomp attack.
+- Reduced the number of particles spawned by water splashes (exploding the barrels on Doom 2's Map02 for example will cause less FPS drops)
+- Fixed a bug causing Pinkies to act weird online. (hopefully)
+- Added a better animation for the pinky's pounce attack . Now he stops for a moment before doing the attack, so you can prepare to avoid it.
+- Now I am 100% sure there wont be pallete fuckups when playing this with Ancient Aliens or Back to Saturn X.
+
+August  2018 Private Beta:
+- Added first version of Brutal Doom's manual. Thanks to Black Metal Chainsaw for making a revision.
+- New Weapon: Flamethrower. Rare replacement for BFG.
+- Rebalanced Grenade Launcher, added more impact damage (can kill Pinkies in a single hit).
+- New animations for the Machinegun's underbarrel grenade launcher. Reloads faster, can be reloaded with the Reload key.
+- New blood particles.
+- Added Hell Knight and Baron of Hell's crotch pain animation rotations. (thanks to Dox).
+- Better shotgun reloading frames (thanks to Tootsybowl)
+- Killing an imp with an axe or vertical axe cut will show a new animation.
+- Changed Axe's damage from 50 to 90.
+- An axe attack will deal 150 damage when the player has the Berserk (can chop a hell knight or mancubus head off with a single strike).
+- Tweaked green and blue blood codes to behave more like the original blood (thanks to Cacodemon345)
+- Added new lava fall textures.
+- Improved optimization on wall decals generated by killing small enemies with the SSG.
+- You can cancel the recoil/reloading of many weapons by switching to different ones. This can make gun combos such as firing a rocket, imediately switching and firing the SSG, then switching to a submachinegun.
+- When cancelling the SSG reload, when you switch back to it, the raise state will start mid way through the animation of putting the shells into it, making
+it much faster.
+- Purist can now use the MG42.
+- Revenant Missile Launcher greatly buffed.
+- Fixed missing Romero head easter egg.
+- Indexed all gibs into the sv_corpsequeue cvar. This means better performance for slaughtermaps as you can get rid of gibs easier.
+- Added shootable Icon of Sin boss fights for TNT, Plutonia, Plutonia 2, Plutonia RCP, Epic 2, Whispers of Satan, Doom 2 Reloaded, and Alien Vendetta. Still needs some work.
+- Indexed all Final Doom maps into the Map Enhancement System. Now all maps features better skies, and will play the correct music when playing with Doom Metal Volume 5 (also released on this date).
+- Now all trees and plants can be burned with napalm or plasma.
+- Killing a Pain Elemental with a fatality will leave a destroyable and pushable body that can work like an explosive barrel.
+- New HUD sprites for the Tank. Now you can see the lower part better, so you can have a better idea of where the base is currently facing.
+- Now the Radsuit powerup will protect you both from nukage, splashed lava, fire hazards, and flamethrower splash damage.
+
+April  2018:
+- Players can kick zombie heads by walking over them just like in Blood (only works on Singleplayer for performance measures)
+- Fixed lots of bugs related to weapons.
+- Destroyable bodies now works on multiplayer. Theoretically there should not be any increase in net traffic.
+- Added muddy blood pools for both blue and green blood types when falling over liquids.
+- Added a key binding (default O) to select the ammo drop function.
+- Player's health and armor can no longer go past 300.
+- Fixed a bug causing a dying imp to spawn infinite head hitboxes.
+- Health and Armor bonus won't respawn in multiplayer to prevent players from abusing it and slowing down Survival games.
+- Increased player's resistance to shrapnel damage, so the extra damage caused by barrels wont cause unintended deaths and prevent maps that heavily relies on barrels and voodoo dolls from breaking up.
+- Fixed meatshields for all zombies (Still missing a few sprites/placeholders).
+- Fixed a bug that didn't allowed the player to rocket jump.
+- Added new weapon icons for dual wielding.
+- Fixed missing evil marines on A.L.T. wad, and Mr. X on Scythe 2.
+
+
+March 27  2018:
+- Tanks entirely remade. They were rebalanced, now have 3D models, works both on first and third person mode, and in case the tank is destroyed, the player is always safely ejected Necrodome-style.
+- Improved the way some enemies reacts to tanks, like the cyberdemon won't try to unneficiently stomp it, and imps and pinkies wont suicidally run under its threads.
+- Zombie tanks code also remade. Now they behave like actual tanks and added weak points on their rears.
+- Player can now roll left/right by holding the Shift button and pressing A or D.
+- Rocket backblast now working properly.
+- Improved railgun wall piercing code.
+- New explosion particles.
+- Fixed a bug related to MP40's ammo.
+- Rebalance: The SSG can no longer instakill Barons with a single headshot. You need at least two perfect headshots to kill a Baron.
+
+February 18  2018:
+- Added a SMG zombie variation that has a small chance of replacing the Shotgun zombie. It deals the exact same DPS, and drops the SMG. This will make the
+SMG easier to find on most playthroughs.
+- Improved gore gut sprites and large blood pools.
+- Added new rotting decorative gore sprites.
+- Pinky Demons can be enraged by taunts. They will become twice as fast, and will infight with absolutely anything that hits them.
+- You can dual wield the Mp40s.
+- Fixed the nazis on the wolfenstein level not giving the Purist player ammo drops.
+- Changed MP40's sounds to something sharper that sounds more like the real gun.
+- Fixed an unintended difficulty setting that made enemies respawn on Black Metal difficulty.
+- Changed the purist's smg, now it has bigger rate of fire, spread, and the sprite holds it single-handed, just like in Ultimate Doom's cover image.
+- Added a cvar to disable footstep sounds (bd_footstepsounds 1 to enable, 0 to disable, can be changed on options)
+- Added a special menu for Credits.
+- Many minor fixes.
+
+January 02  2018: (one year on this)
+- Doubled pistol and smg maximum ammo pool.
+- Fixed a bug on the Evil Marine's death animations that often prevented
+the exit doors on EDAY06 from opening.
+- Increased Machinegun's damage per bullet by 1.
+- Reduced the Super Mastermind's health by half.
+- Fixed a bug that didn't allowed the axe to be picked up on multiplayer.
+
+December 31 2017:
+- Fixed several weapon bugs.
+- Re-introduced the Evil Marines. Now they can either have a rifle or plasmagun and have the ability to jump over obstacles.
+- Archviles no longer kills captured marines, instead, turns them into
+Evil Marines.
+- Fixed some bugs necessary for the latest version of Extermination Day beta to work.
+
+
+
+December 16 2017:
+- Archvile's attacks will now thrust the player upwards just like in Vanilla Doom.
+- Increased the fire rate of the Shotgun and the Super Shotgun.
+- Decreased minigun spread and wind up time, increased recoil.
+- New fire sound for the minigun.
+- Fixed a bug that caused infinite heads of a Hell Knight to explode, causing a lot of lag.
+- Assault Shotgun's reload can be stoped to switch to another weapon.
+- Removed a screen effect when taking damage from explosives that caused the game to desync online.
+- Rifle magazines gives 30 ammo instead of 10.
+- Fixed a bug that caused enemies to scream infinitely when killed outside the player's view.
+- Increased damage caused by hook and uppercuts while on Berserk mode.
+- Flying monsters (cacodemon, pain elemental, lost soul) now takes 3x bonus damage from shrapnel, making frags and the grenade launcher much more
+effective against them.
+- Restored over the top death animation for zombies and imps when killing them with shotguns at point blank range.
+- Now after the eye removal fatality on Cacodemons, the player is able to throw the cacodemon's eye (knocks down small enemies).
+
+
+October 27 2017:
+- More new deaths for the Mancubus.
+- Friendly marines have different uniform colors, even when captured.
+- Remade the falling damage system for when a small enemy is knocked out. Now the system is more reliable, and works on low-gravity environments.
+- Living impaled humans decorations remade.
+- Fixed a bug that caused a dying zombie to continue to scream even after you exploded it's head.
+- Removed several screen pain effects.
+
+October 23 2017:
+- Added a pistol punch altfire for the pistol.
+- Added infrared 3x scope to Rocket Launcher alt fire.
+- Added desintegrating link belts to machinegun and minigun casings.
+- Added smoke trails to used shotgun shells.
+- Properly alignated shotgun shells when reloading the super shotgun.
+- Added two new PVP fatalities and cleaned up the older one.
+- Players will be able to knock eachother out in Deathmatch with kicks. A knocked player can be stomped Mario-style. 
+(players can't be knocked out if they are with the fists selected. This is not a bug, this is to prevent players from cheating
+on fist fights). 
+- New sounds for zombies.
+- Test map improved.
+- Indexed several Final Doom maps into the Map Enhancement script, but most of these maps still have nothing new besides HD skies.
+
+October 12  2017:
+- Added the tanks, mechs, and helicopters from my vehicle mod. They currently can be found on Doom 2 Map16, Plutonia Map29,
+and Epic's Map02. They still need to be rebalanced and probably have bugs.
+- You can find all vehicles and enemy variations on the test map.
+- New DM map: BDM04
+- Fixed a bug that allowed players to stunlock cyberdemons with taunts.
+- Several new death animations for the archvile.
+- Flamethrower rebalanced, reduced FPS drops.
+- Cyberdemon can be stunlocked with the flamethrower.
+- If a zombie or imp is killed by a grenade or rocket's blast radius but is considerably far from it, it will lose a limb and enter a suffering state, allowing for gaining cruelty bonuses.
+- Cyberdemon's fire rate was reduced, but its projectiles will always result in an insta kill.
+- Added special terrain effects for sand textures. You can notice these effects on the egyptian maps of Scythe 2, Epic 1/2.
+- Added player weapon skins. Several weapons and jump animations still missing, I just ported the old sprites from v18.
+
+October 03 Quick Bugfix:
+- Hell Knights and Barons of Hell have an actual crotch hitbox now, but you can only hit it when they are charging an attack.
+- Doubled the chances of armless pinky demons to go berserk.
+- Reduced friendly marine chat frequency.
+- Added new pickup sound effects for shotgun shells and keys.
+- Fixed a bug related to voodoo dolls lagging the game to unplayable levels (such as in Sunlust Map04 for example).
+
+September 29 2017:
+- Added PSXDoom's map The Marshes. You can find it from the secret exit on Twilight Descends. Filename is PSMAP57 Still has some bugs.
+- Made the MP40 more historically accurate, max ammo is 32, reduced recoil, added a small delay before you start firing.
+- Ported some new fatalities from PB against zombiemen, shotgunguy, imp, and archvile. They still need to be cleanned up.
+- Saluting animation is now done entirely in third person.
+- The Motherdemon on E4M8 is now working properly.
+- Cleaned up all the yellow warnings at startup.
+- Spent bullet casings are now cleaned up by a different cvar. Check the performance options.
+- Added beefier sounds and better firing animation to the machinegun.
+- Added the hanging hooks from PSXDOom into some maps. You can notably find them at Doom 2 Map12 and PSMAP57
+- More performance improvements.
+- Shooting rockets at lava will spawn large lava particles that can kill the player and enemies.
+
+September 22 2017:
+- Dead bodies of Hell Knights and Barons of Hell revisited. Now they can be gibbed just like other bodies.
+- Further cleaned up Rifle and Submachinegun iron sights.
+- Chainsaw rebalanced for Deathmatch. Now it's a very powerful weapon.
+- Improved some player sprites, improved player sprite sync. Fixed a bug from v20b where the player would be stuck on the fists
+animation after swithing back to a weapon, making it look like it's shooting bullets from the dick.
+- Greatly improved the head hitbox of Masterminds and Cyberdemons.
+- Tons of bugs squashed.
+
+
+September 12 2017 :
+- Improved muzzle flash of most weapons.
+- Added iron sights to the Assault Shotgun.
+- I broke the nazis and the mg42 on MAP31 again, but now its fixed for good.
+- Improved Cacodemon's gib particles, now looks better and lags less.
+- Revamped cacodemon's bodies. Now all bodies can be destroyed and crushed.
+- Chainsaw is much more effective against the cacodemon now, as it can no longer escape when being stunlocked by it.
+- Monsters can now be damaged and killed while performing fatalities.
+- Player will no longer be pushed away when being biten by a pinky demon.
+- Pinky demon can make a small jump to attack and reach players from above edges.
+- Archviles can be killed by headshots.
+- Archvile dead bodies can be shoot and squished by doors and crushers.
+- Several new death animations for Mancubus. More yet to come.
+- Now you can harvest fire cannons from every dead mancubus (minus mancubi killed by fire or plasma).
+- Added a new area on the test map to test crushers.
+- New iron sights for the assault rifle (thanks to EletricPulse )
+
+September 05 2017 :
+- Added new arms for melee attacks.
+- Now you can grab and throw any small enemy, and even other players in Deathmatch.
+- Fixed a bug causing BFG projectiles to not explode on Deathmatch.
+- Added the "Brutal Deathmatch" campaign so you can fight with bots and test DM gameplay. It has 3 maps so far.
+- Dual Wield weapons can no longer be directly selected, you must have a key binded to select them (check the options menu).
+This will make the weapon selection cleaner and easier.
+
+
+August 21 2017 :
+- Fixed a bug that would make the game to freeze when splashes were spawned over deep water.
+- Tweaked the fire sound for assault rifle.
+- Fixed several bugs related to weapons.
+- Added HD fonts.
+- Improved a lot of stuff on the custom HUD. Health changes color depending of how much you have left, and you can see how much % damage the armor will absorb.
+- Fixed several bugs related to weapon behavior.
+- Added some new death animations for the chaingunguy.
+
+August 06 2017 :
+- Added faux water physics (open GL only).
+- Changed duplicated entries from IWAD. This fixes a glitch happening when you load a wad with custom weapon sprites such as
+Back to Saturn X in the wrong order.
+- Changed the Medikit and Stimpack red cross symbom to a white cross over a green background (Not like the Red Cross complained
+about it {yet}, but it would probably happen sometime. Besides this can now replace the goofy-looking "pill" icon of BFG Edition
+players.).
+- Better sprites for Imp Fireballs.
+- Reduced the size of the test map.
+- Map enhancement system: Added breakable windows to E1M1, E1M2, the Testmap, and Doom 2 MAP01. The falling glass can kill you.
+- Working on to introduce the PSX Doom maps. Currently only 2 maps are playable (PSMAP29 reachable from Downtown, PSMAP58 reachable from Suburbs).
+
+
+July 21 2017 :
+- Added a huge testmap that can be acessed with either typing "map test" in the console, or the "load test map" option in 
+the Brutal Doom options menu. Map is still WIP, no need to report anything about it.
+- Temporaly disabled the first person executions, going to find another way to work around them.
+- More work done on the map enhancement system, the first 3 maps of Doom 1 now have breakable lamps.
+- Changed the damage on all weapons. Now weapons no longer deal randomized damage.
+- Moved custom menus to the main menu (Brutal Doom Options) so it now will work on GZDoom 3.1 properly.
+- Minigun fire rate raised to 1575bpm (previously 1000bpm, originally 720bpm on v20b)
+- Removed the warp effect from smoke particles (it was causing bugs on software mode).
+- Added the Machinegun (Slot 4. Purist still cant use it)
+- Added the Unmaker (Slot 8. Still WIP. Purist still cant use it)
+- Zombiemen gives 10 soul points on death (Unmaker's ammo).
+- Fixed a bug causing some weapon pickups to not show up when playing on Tactical Mode.
+- Wolfenstein SS soldiers outside the Wolfenstein levels are now replaced by headless zombiemen instead of evil marines (evil marines will be re-introduced later).
+- Added more sounds.
+
+Jul 7 2017 Backup:
+- New MP40 sprites.
+- Added a grab system. When you have a Berserk Pack, you can grab zombies and imps by pressing R near them. Only works on
+zombiemen, shotgunguys, and imps for now. It will work on chaingunners and civilians in the future.
+- Map Enhancement System added to Doom 2 maps 15 and 16.
+- Reverted the whole sprint system back to a class based one because of bugs.
+- Added ammo droping system, use Slot 0 to select it (fuel still has no pickup icon).
+- I am starting to make the basis for a female player. Currently setting the gender to female changes the hudface and pain sounds.
+- Railgun uses 5 ammo instead of 10.
+- Rocket pickups can be detonated by shooting at it. In combination with the ammo droping system, now you can use them
+as an effective improvised weapon by dumping several of them and waiting for monsters to walk near it.
+- The axe can be smeared with blood.
+- FOr whatever reason the Wolfenstein SS script stoped to work and evil marines were spawning in place of nazis. Fixed it now.
+- Weapons can be reloaded using GZDoom's built-in reloading bind.
+
+BD21 Apr28 2017  test
+- Rifle fire rate was raised from 420 bpm to 525bpm at the cost of decreased accuracy when firing from the hip at full auto.
+- Improved rifle iron sights.
+
+
+BD21 Apr 27 2017 Test
+- THe objective of this build is to test how the pistols and submachineguns will impact the game.
+- Rifle start no longer starts with grenades, while pistol start has 2 grenades.
+- The axe-wielding zombie scientists can sometimes replace the zombiemen. This is temporary and just to see how the axe will affect the game. On the final version they will only spawn on some lab-themed levels using the Level Enhancement Script.
+- Added a cvar to disable dual-wielding.
+
+
+BD21 Apr 24 2017 Test
+- Fixed some bugs with rifle iron sights.
+- Added an Axe to slot 1. Weapon still is not finishd and still no way to get it in-game without cheating.
+
+
+BD21 Apr 23 2017 Test
+- Added submachinegun, works both for regular player and purist.
+- Added new bullet type for pistols and smgs, reduced rifle/minigun bullet limit from 600 to 400. Still not fully implemented, do not report bugs related to it.
+- Reorganized menus.
+- Tactical Class removed. Now it's a cvar, disabled by default.
+- Skulltag difficulty removed. Now it's a cvar, enabled by default.
+- Split advanced decorations and map enhancement system into two different cvars.
+- New iron sights for the assault rifle when aiming down the sights.
+- Buffed Grenade Launcher.
+- Changed Assault Rifle to slot 4.
+
+BD21 Apr 14 2017 Test
+- More bugfixes, everything reported to the bugtracker https://docs.google.com/spreadsheets/d/1FpEqqJSamvZDac_UaIYq6rGJ9TwLK1Dnw-MiDP8umtM/edit#gid=0
+- Added proper casings for pistols.
+- Remade Purist chaingun.
+- Purist weapons will display their own pickup sprites.
+
+
+BD21 Apr 12 2017 Test
+- Added better effects for archvile attacks and a new death animation for the player when being killed by it.
+- Gibs are no longer targeted by BFG hitscans or autoaim.
+- Purist mode now can use autoaim.
+- Friendly marines will use teleports silently.
+- Fixed a bug that allowed the player to resurrect dead captured marines by pressing Use on them.
+- Started using the bugtracker, now all bugs should be reported there:
+https://docs.google.com/spreadsheets/d/1FpEqqJSamvZDac_UaIYq6rGJ9TwLK1Dnw-MiDP8umtM/edit#gid=0
+
+BD21 Apr04 2017 Test
+- Starting to test the huge Map Enhancement System. Currently Doom's E1M1 E1M2, Doom 2's MAP01 and MAP13, TNT Map01 and Plutonia MAP01 are the only maps containing this.
+- Changed flashlight controls to operate exclusively inside the Flash states, so you can turn it on/off even when while reloading, firing, etc.
+- Changed minigun's engine sound slot so it won't conflict with pickup item sounds.
+- Fixed several bugs found on latest bug.
+- Introduced "Realism" class, which can use sprint (press Run key). There still is a bug that not all weapons have proper sprinting animations.
+- New shotgun sprites by DoomNukem, fits the reloading sprites much better (still going to implement ADS mode sprites).
+- Fixed a bug that caused trees to be pushed by explosions.
+
+BD21 Mar13 2017 Test
+- New sprites for Rocket Launcher, SSG, and Minigun.
+- Many new sound effects.
+- Improved blood puffs.
+- "Enhanced Night Vision Mode" is permanently disabled.
+- Invulnerability makes the screen grayscale again (but not with an inverted palete, so its easier on the eyes than in the original game).
+- Added flashlights (doesn't works with dual wielding weapons).
+- Remade Railgun.
+
+BD21 Mar 05 2017 Test
+- Fixed some issues found on previous test.
+- Added alt fire for BFG based on the alpha BFG attack.
+- Added brightmaps.
+- Added better nukage and lava textures.
+- New better burning barrel and candelabra sprites (they also have brightmaps and look better in the dark).
+
+BD21 Mar 04 2017 Test
+- Fixed ammo counters on fullscreen hud.
+- Fixed several bugs that showed up on previous tests.
+- Made the pistol right-handed.
+
+BD21 Feb 24 2017 Test
+- Green blood for Hell Knights and Barons of Hell is fully implemented (has a know bug of sometimes spawning small white decals, I already know that).
+- Added AA12 for Skulltag mode, and fully implemented the pistol.
+- Fixed several bugs introduced on earlier tests.
+- Improved sound effects for chainsaw, added new decals for it.
+KNOWN BUG: Sometimes blood decals spawns on sky.
+
+
+BD20c Feb 1 2017 Test
+- Now you can bash enemies with the butt of your rifle. To do so, press Q when aiming down the sights. Continue to press Q to perform several bash attacks in sequence.
+- Quick Executions can be performed on zombiemen, and imps whenever you knock them down.
+- Fixed a bug that did not knocked imps down when kicking them in the head.
+- Removed the custom E2M8 and E3M8 maps. Now added a script to detect the bosses of this level, and replace them.
+- Doom 1's E1M8 will feature stronger barons with three times more hp and moves three times faster. (KNOWN BUG: WALLS STILL DONT LOWER AFTER KILLING THEM)
+- Special blood decals will be spawned on water.
+- Revamped chainsaw.
+- Improved responsivenes of melee attacks.
+- You can switch weapons right after firing the Supershotgun without having to reload it (but after you switch back, you will need to reload it before firing).
+
+
+BD20c Jan 25 2017 Test
+- Skulltag weapons fully functional, added a new skill level that has 25% chance of replacing the Rocket Launcher, BFG9000 and Plasmagun with Grenade Launcher,
+BFG10k, and Railgun respectively.
+- New plasmagun sprites based in an HD version of the original sprites. Dual wielding sprites still not replaced, no need to report anything related to them.
+- New blood decals.
+- New effects for candles and torches.
+- Improved feedback on all weapons.
+- Improved reload speed on most weapons.
+- Shotgun now will stop reloading sequence by pressing alt fire.
+- Added an option to start the game with the pistol instead the rifle, not finished yet, no need to report any bugs related to the pistol.
+- New sound effects for some weapons.
