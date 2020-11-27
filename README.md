@@ -19,6 +19,7 @@ I make this image using this articles from [Xerxes Lins](mailto:xerxeslins@gmail
 ## brutal doom files
 * [Brutal Doom v21](https://www.moddb.com/mods/brutal-doom/downloads/brutal-doom-v21-beta)
 * [Doom Metal v5](https://www.moddb.com/mods/brutal-doom/downloads/doom-metal-soundtrack-mod-volume-5)
+  This is a large file to [github](https://github.com) download file and copy the file [DoomMetalVol5.wad](https://www.moddb.com/mods/brutal-doom/downloads/doom-metal-soundtrack-mod-volume-5) into dir `usr/games/zandronum/skins`.
 
 ## docker
 
