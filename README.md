@@ -32,6 +32,7 @@ Install Pulse audio to enable the container to access host audio device
 
 ```
 $ bashpulseaudio --load=module-native-protocol-tcp --exit-idle-time=-1 --daemon
+xhost + <HOST IP>
 $ docker build --pull --rm -f Dockerfile -t pedrorobsonleao/brutaldoom:latest .
 ```
 
