@@ -54,7 +54,7 @@ $ docker run \
         --rm \
         -e DISPLAY=<HOST IP> \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        --mount type=bind,source=/Users/letonai/.config/pulse,target=/home/developer/.config/pulse \  
+        --mount type=bind,source=$HOME/.config/pulse,target=/home/developer/.config/pulse \  
         pedrorobsonleao/brutaldoom zandronum
 ```
 ![doomseeker](img/Zandronum.png)
@@ -67,7 +67,7 @@ $ docker run \
         --rm \
         -e DISPLAY=<HOST IP> \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        --mount type=bind,source=/Users/letonai/.config/pulse,target=/home/developer/.config/pulse \  
+        --mount type=bind,source=$HOME/.config/pulse,target=/home/developer/.config/pulse \  
         pedrorobsonleao/brutaldoom freedoom1
 ```
 ![freedom1](img/Freedoom1.png)
@@ -79,7 +79,7 @@ $ docker run \
         --rm \
         -e DISPLAY=<HOST IP> \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        --mount type=bind,source=/Users/letonai/.config/pulse,target=/home/developer/.config/pulse \  
+        --mount type=bind,source=$HOME/.config/pulse,target=/home/developer/.config/pulse \  
         pedrorobsonleao/brutaldoom freedoom2
 ```
 ![freedom2](img/Freedoom2.png)
@@ -91,7 +91,7 @@ $ docker run \
         --rm \
         -e DISPLAY=<HOST IP> \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        --mount type=bind,source=/Users/letonai/.config/pulse,target=/home/developer/.config/pulse \  
+        --mount type=bind,source=$HOME/.config/pulse,target=/home/developer/.config/pulse \  
         pedrorobsonleao/brutaldoom prboom-plus 
 ```
 ![prboom-plus](img/Prboom-plus.png)
@@ -101,7 +101,7 @@ $ docker run \
         --rm \
         -e DISPLAY=<HOST IP> \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        --mount type=bind,source=/Users/letonai/.config/pulse,target=/home/developer/.config/pulse \  
+        --mount type=bind,source=$HOME/.config/pulse,target=/home/developer/.config/pulse \  
         pedrorobsonleao/brutaldoom prboom-plus -iwad doom2.wad -file tnt.wad
 ```
 ![prboom-plus1](img/Prboom-plus1.png)
@@ -111,7 +111,7 @@ $ docker run \
         --rm \
         -e DISPLAY=<HOST IP> \
         -v /tmp/.X11-unix:/tmp/.X11-unix \
-        --mount type=bind,source=/Users/letonai/.config/pulse,target=/home/developer/.config/pulse \  
+        --mount type=bind,source=$HOME/.config/pulse,target=/home/developer/.config/pulse \  
         pedrorobsonleao/brutaldoom prboom-plus -iwad doom2.wad -file plutonia.wad
 ```
 ---
