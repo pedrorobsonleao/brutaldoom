@@ -16,8 +16,8 @@ RUN \
     prboom-plus \
     freedoom \
     zandronum \
-    doomseeker-zandronum \
-    && \
+    doomseeker-zandronum && \
+    apt-get install --no-install-recommends -y pulseaudio && \
     apt purge -y \
     wget \
     software-properties-common \
@@ -36,6 +36,7 @@ RUN \
 ADD . /
 
 USER developer
+ENV PULSE_SERVER=host.docker.internal
 ENV HOME /home/developer
 ENV PATH=$PATH:/usr/games
 
