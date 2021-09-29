@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+LABEL maintainer Pedro Robson Leão <pedro.leao@gmail.com>
+
 RUN \
     apt update -y && \
     apt install -y \
@@ -35,9 +37,12 @@ RUN \
     chown ${uid}:${gid} -R /home/developer
 ADD . /
 
-USER developer
-ENV PULSE_SERVER=host.docker.internal
-ENV HOME /home/developer
-ENV PATH=$PATH:/usr/games
+EXPOSE 10666
 
-CMD ["/usr/bin/doomseeker"]
+USER developer
+ENV PULSE_SERVER=host.docker.internal \
+    HOME=/home/developer \
+    PATH=$PATH:/usr/games \
+    LD_LIBRARY_PATH=/usr/games/zandronum
+
+CMD ["./entrypoint.sh"]
